@@ -5,17 +5,31 @@ Tenéis que crear una SPA con varias 'páginas' en React, gestionando el estado 
 Mínimo de páginas (vistas):
 
 - Lista API pública,
-- Lista API privada
 - Detail
+- Página no encontrada
+- Lista API privada
 - Crear ítem
 - Modificar ítem
-- Página no encontrada
 
 - Alguna/s de ellas se tiene que cargar mediante lazy loading.
 
 La app se conectará a una **API pública** de vuestra elección y listará los elementos. En dicho listado tiene que haber paginación y también un filtro como mínimo. Filtrado en la misma página del listado. Al filtrar, no dirigimos al usuario a otra página, se queda en el listado y el listado cambia.
 
 A partir de este listado tendréis que crear otro listado conectado a una **API privada** (API local mediante JSON-server), donde implementaréis CRUD.
+
+## Primer nivel
+
+- Lista API pública pintando los datos gestionados mediante useReducer(),
+- Detail
+- Página no encontrada
+- Paginación
+- Filtro
+
+## Segundo nivel
+
+- Lista API privada
+- Crear ítem
+- Modificar ítem
 
 - La creación y edición de item se hará con el mismo componente formulario reutilizado. La creación y la edición tienen que tener paths distintos en la URL. Cuando el usuario crea o edita, se le tiene que redirigir al listado y dar un feedback del resultado de la operación.
 - El botón de borrar tiene que estar en el mismo listado de items. Cuando el usuario borra, no se va a otra página, en el mismo listado en el que está debe desaparecer el ítem. También si queréis puede estar en la página de detalle.
