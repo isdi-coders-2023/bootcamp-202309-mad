@@ -27,7 +27,7 @@ A partir de este listado tendréis que crear otro listado conectado a una **API 
 
 ## Segundo nivel
 
-- Lista API privada
+- Lista API privada añadir desde API Publica / eliminar
 - Crear ítem
 - Modificar ítem
 
